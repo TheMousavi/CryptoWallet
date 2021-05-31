@@ -1,4 +1,4 @@
-export const holdings = [
+export let holdings = [
     {
         id: "bitcoin",
         qty: 888
