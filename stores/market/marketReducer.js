@@ -1,4 +1,4 @@
-import * as marketActions from "./marketAction";
+import * as marketActions from "./marketActions";
 
 const initialState = {
     myHoldings: [] ,
@@ -33,7 +33,7 @@ const marketReducer = (state = initialState , action) => {
         case marketActions.GET_COIN_MARKET_SUCCESS :
             return {
                 ...state ,
-                coins: action.payload.coins
+                coins: action.payload.coins,
             }
         case marketActions.GET_COIN_MARKET_FAILURE :
             return {
